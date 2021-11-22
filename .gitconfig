@@ -1,0 +1,18 @@
+[user]
+        email = 125173679@qq.com
+        name = hui
+[alias]
+        ck = checkout
+        st = status
+        df = diff
+        br = branch
+        pl = pull
+        ph = push
+        cm = commit -m
+        co = commit
+        ad = add .
+        lss = log --no-merges --color --stat --graph --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit
+        ls = log --no-merges --color --graph --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[init]
+        defaultBranch = master
